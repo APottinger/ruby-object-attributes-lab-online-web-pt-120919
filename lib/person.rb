@@ -11,3 +11,10 @@ class Person
     @job = new_job
   end
 end
+
+tom = Person.new("Tom")
+
+tom.job = "Construction Worker"
+
+tom.job = "Doctor"
+
