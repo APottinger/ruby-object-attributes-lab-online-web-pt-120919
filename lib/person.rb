@@ -1,30 +1,9 @@
 class Person
-  
-  def initialize(name)
-    @name = name
+  def initalize(job)
+    @job = job 
   end
   
-  def name
-    @name
-  end
-  
-  def name=(new_name)
-    @name = new_name
-  end
-end
-
-Alex = Person.new("Alex")
-Alex.name 
-
-end
-
-class Person
-  
-  def initialize(job)
-    @job = job
-  end
-  
-  def job
+  def job 
     @job
   end
   
@@ -32,6 +11,3 @@ class Person
     @job = new_job
   end
 end
-
-engineer = Person.new("Mechanical Engineer")
-engineer.job
